@@ -8,5 +8,8 @@
   },
   "extra": {
     "class": "MyInstaller\\Composer\\MyInstallerPlugin"
+  },
+  "require": {
+    "composer-plugin-api": "1.0.0"
   }
 }
