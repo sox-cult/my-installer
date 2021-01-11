@@ -4,12 +4,12 @@
   "type": "composer-plugin",
   "license": "MIT",
   "autoload": {
-    "classmap": ["src/"]
+    "psr-0": {"MyInstaller\\Composer": "src/"}
   },
   "extra": {
     "class": "MyInstaller\\Composer\\MyInstallerPlugin"
   },
   "require": {
-    "composer-plugin-api": "~1.0.0"
+    "composer-plugin-api": "1.0.0"
   }
 }
