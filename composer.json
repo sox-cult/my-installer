@@ -1,0 +1,12 @@
+{
+  "name":"sox-cult/my-installer",
+  "description":"自定义安装类",
+  "type": "composer-plugin",
+  "license": "MIT",
+  "autoload": {
+    "classmap": ["src/"]
+  },
+  "extra": {
+    "class": "MyInstaller\\Composer\\MyInstallerPlugin"
+  }
+}
