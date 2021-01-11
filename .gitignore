@@ -29,8 +29,7 @@ common/config/params-local.php
 vendor
 uploads/
 file_temp/
-composer.json
-composer.lock
+
 composer.phar
 backend/web/.htaccess
 backend/web/nginx.htaccess
